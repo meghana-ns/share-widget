@@ -1,0 +1,100 @@
+{
+    "users": [
+        {
+            "id": "u_11111",
+            "name": "Tom Cook",
+            "email": "tom.cook@oslash.com",
+            "profileImage": ""
+        },
+        {
+            "id": "u_11112",
+            "name": "Wade Cooper",
+            "email": "wade.cooper@oslash.com",
+            "profileImage": ""
+        },
+        {
+            "id": "u_11113",
+            "name": "Arlene Mccoy",
+            "email": "arlene.mccoy@oslash.com",
+            "profileImage": ""
+        },
+        {
+            "id": "u_11114",
+            "name": "Robert Martin",
+            "email": "robert.martin@oslash.com",
+            "profileImage": ""
+        },
+        {
+            "id": "u_11115",
+            "name": "Herbert Schildt",
+            "email": "herbert.schildt@oslash.com",
+            "profileImage": ""
+        }
+    ],
+    "groups": [
+        {
+            "id": "g_11111",
+            "name": "Engineering",
+            "adminName": "Wade Cooper",
+            "groupEmail": "engineering@oslash.com",
+            "adminEmail": "wade.cooper@oslash.com",
+            "profileImage": "",
+            "membership": [
+                "u_11111",
+                "u_11112"
+            ]
+        },
+        {
+            "id": "g_11112",
+            "name": "Marketing",
+            "adminName": "Arlene Mccoy",
+            "groupEmail": "marketing@oslash.com",
+            "adminEmail": "arlene.mccoy@oslash.com",
+            "profileImage": "",
+            "membership": [
+                "u_11113",
+                "u_11114"
+            ]
+        },
+        {
+            "id": "g_11113",
+            "name": "Product",
+            "adminName": "Robert Martin",
+            "groupEmail": "product@oslash.com",
+            "adminEmail": "robert.martin@oslash.com",
+            "profileImage": "",
+            "membership": [
+                "u_11111",
+                "u_11113",
+                "u_11114"
+            ]
+        },
+        {
+            "id": "g_11114",
+            "name": "Human Resources",
+            "adminName": "Tim Cook",
+            "groupEmail": "hr@oslash.com",
+            "adminEmail": "tim.cook@oslash.com",
+            "profileImage": "",
+            "membership": [
+                "u_11112",
+                "u_11114",
+                "u_11115"
+            ]
+        },
+        {
+            "id": "g_11115",
+            "name": "Sales",
+            "adminName": "Herbert Schildt",
+            "groupEmail": "sales@oslash.com",
+            "adminEmail": "herbert.schildt@oslash.com",
+            "profileImage": "",
+            "membership": [
+                "u_11111",
+                "u_11113",
+                "u_11114",
+                "u_11112"
+            ]
+        }
+    ]
+}
